@@ -48,10 +48,19 @@ navbar {
 /*FEATURES*/
 #features{
   margin-left:auto;
-  padding: 5% 5% 3% 5%;
+  padding: 3% 5%;
 }
-h3{
+#features h3{
   font-family: "montserrat-bold", sans-serif;
-  font-size: 2.0rem;
+  font-size: 1.5rem;
   font-weight: 800;
+}
+br{
+  text-align: center;
+}
+#features p{
+  color: #8f8f8f;
+}
+i:hover{
+  background-color: blue;
 }
