@@ -46,21 +46,56 @@ navbar {
   transform: rotate(25deg);
 }
 /*FEATURES*/
-#features{
-  margin-left:auto;
-  padding: 3% 5%;
+#features {
+  margin-left: auto;
+  padding: 7% 15%;
 }
-#features h3{
+.feature-box {
+  text-align: center;
+  padding: 4.5%;
+}
+h3 {
   font-family: "montserrat-bold", sans-serif;
   font-size: 1.5rem;
-  font-weight: 800;
+  font-weight: 700;
 }
-br{
-  text-align: center;
+.icon{
+  margin-bottom: 1rem;
+  color: #ef8172;
 }
-#features p{
+p {
   color: #8f8f8f;
 }
-i:hover{
-  background-color: blue;
+.icon :hover {
+  color: #ff4c68;
+}
+
+
+/*TESTIMONIAL SECTION*/
+#testimonials{
+  background-color: #ff4c68;
+  color: #ffffff;
+  text-align: center;
+}
+.testimonial-image{
+  width: 10%;
+  border-radius: 100%;
+  margin: 20px;
+}
+h2{
+  font-size: 3rem;
+  font-family: "Montserrat-Bold";
+  line-height: 1.5;
+}
+.carousel-item{
+  padding: 7% 15%;
+}
+#press{
+  background-color: #ff4c68;
+  text-align: center;
+  padding-bottom: 3%;
+}
+.press-logo{
+  width:15%;
+  margin:20px 20px 50px;
 }
