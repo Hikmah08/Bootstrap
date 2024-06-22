@@ -1,0 +1,44 @@
+@media (min-width: 300px) and (max-width: 1400px) {
+  h1 {
+    color: red;
+    font-size: 60px;
+  }
+}
+   .navbar-toggler {
+    border: none; /* Remove default border */
+  }
+  .navbar-toggler-icon {
+    background-image: none; /* Remove default icon */
+    width: 30px;
+    height: 3px;
+    background-color: white;
+    position: relative;
+  }
+  .navbar-toggler-icon::before,
+  .navbar-toggler-icon::after {
+    content: "";
+    position: absolute;
+    width: 30px;
+    height: 3px;
+    background-color: white;
+    display: block;
+    transition: all 0.3s;
+  }
+  .navbar-toggler-icon::before {
+    top: -10px;
+  }
+  .navbar-toggler-icon::after {
+    top: 10px;
+  }
+  .navbar-toggler.collapsed .navbar-toggler-icon {
+    background-color: transparent;
+  }
+  .navbar-toggler.collapsed .navbar-toggler-icon::before {
+    top: 0;
+    transform: rotate(45deg);
+  }
+  .navbar-toggler.collapsed .navbar-toggler-icon::after {
+    top: 0;
+    transform: rotate(-45deg);
+  }
+

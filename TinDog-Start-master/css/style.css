@@ -9,15 +9,9 @@ h1 {
   font-family: "Montserrat", sans-serif;
   font-size: 3.5rem;
   line-height: 1.5;
-  /*margin-bottom:8% ;*/
 }
-/*
-.row{
-    margin-top:10%;
-}
-    */
 .container-fluid {
-  padding: 3% 15%;
+  padding: 3% 15% 7% 15%;
 }
 /*NAVIGATION BAR */
 
@@ -42,13 +36,16 @@ navbar {
 }
 /* TITLE IMAGE*/
 .title-image {
-  width: 60%;
+  width: 25%;
   transform: rotate(25deg);
+  position:absolute;
 }
 /*FEATURES*/
 #features {
   margin-left: auto;
   padding: 7% 15%;
+  background-color: #ffffff;
+  position:relative;
 }
 .feature-box {
   text-align: center;
@@ -59,7 +56,7 @@ h3 {
   font-size: 1.5rem;
   font-weight: 700;
 }
-.icon{
+.icon {
   margin-bottom: 1rem;
   color: #ef8172;
 }
@@ -70,40 +67,89 @@ p {
   color: #ff4c68;
 }
 
-
 /*TESTIMONIAL SECTION*/
-#testimonials{
+#testimonials {
   background-color: #ff4c68;
   color: #ffffff;
   text-align: center;
 }
-.testimonial-image{
+.testimonial-image {
   width: 10%;
   border-radius: 100%;
   margin: 20px;
 }
-h2{
+h2 {
   font-size: 3rem;
   font-family: "Montserrat-Bold";
   line-height: 1.5;
 }
-.carousel-item{
+.carousel-item {
   padding: 7% 15%;
 }
-#press{
+#press {
   background-color: #ff4c68;
   text-align: center;
   padding-bottom: 3%;
 }
-.press-logo{
-  width:15%;
-  margin:20px 20px 50px;
+.press-logo {
+  width: 15%;
+  margin: 20px 20px 50px;
 }
 /* PRICING SECTION*/
-#pricing{
+#pricing {
   padding: 100px;
   text-align: center;
 }
-.pricing-section{
-  padding: 3% 2% ;
+.pricing-section {
+  padding: 3% 2%;
+}
+
+@media (max-width:1024px){
+  #title{
+    text-align: center;
+  }
+  .title-image{
+    transform:rotate(0deg);
+    position:static;
+    width:60%;
+  }
+
+
+  .navbar-toggler {
+    border: none; /* Remove default border */
+  }
+  .navbar-toggler-icon {
+    background-image: none; /* Remove default icon */
+    width: 30px;
+    height: 3px;
+    background-color: white;
+    position: relative;
+  }
+  .navbar-toggler-icon::before,
+  .navbar-toggler-icon::after {
+    content: '';
+    position: absolute;
+    width: 30px;
+    height: 3px;
+    background-color: white;
+    display: block;
+    transition: all 0.3s;
+  }
+  .navbar-toggler-icon::before {
+    top: -10px;
+  }
+  .navbar-toggler-icon::after {
+    top: 10px;
+  }
+  .navbar-toggler.collapsed .navbar-toggler-icon {
+    background-color: transparent;
+  }
+  .navbar-toggler.collapsed .navbar-toggler-icon::before {
+    top: 0;
+    transform: rotate(45deg);
+  }
+  .navbar-toggler.collapsed .navbar-toggler-icon::after {
+    top: 0;
+    transform: rotate(-45deg);
+  }
 }
