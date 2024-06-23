@@ -103,6 +103,27 @@ h2 {
 .pricing-section {
   padding: 3% 2%;
 }
+/*CTA SECTION*/
+#cta{
+  background-color: #ff4c68;
+  padding:12%;
+  color: #ffffff;
+  text-align: center;
+  font-family: "Montserrat-bold";
+  font-weight: bolder;
+}
+.cta-text{
+  font-size: 3rem;
+  line-height: 1.5;
+}
+/*FOOTER SECTION*/
+#footer{
+  padding: 7% 15%;
+  text-align: center;
+}
+.social-icon{
+  margin: 20px 10px;
+}
 
 @media (max-width:1024px){
   #title{
@@ -113,43 +134,5 @@ h2 {
     position:static;
     width:60%;
   }
-
-
-  .navbar-toggler {
-    border: none; /* Remove default border */
-  }
-  .navbar-toggler-icon {
-    background-image: none; /* Remove default icon */
-    width: 30px;
-    height: 3px;
-    background-color: white;
-    position: relative;
-  }
-  .navbar-toggler-icon::before,
-  .navbar-toggler-icon::after {
-    content: '';
-    position: absolute;
-    width: 30px;
-    height: 3px;
-    background-color: white;
-    display: block;
-    transition: all 0.3s;
-  }
-  .navbar-toggler-icon::before {
-    top: -10px;
-  }
-  .navbar-toggler-icon::after {
-    top: 10px;
-  }
-  .navbar-toggler.collapsed .navbar-toggler-icon {
-    background-color: transparent;
-  }
-  .navbar-toggler.collapsed .navbar-toggler-icon::before {
-    top: 0;
-    transform: rotate(45deg);
-  }
-  .navbar-toggler.collapsed .navbar-toggler-icon::after {
-    top: 0;
-    transform: rotate(-45deg);
-  }
 }
+
