@@ -50,63 +50,59 @@ h3 {
 #services {
   background-color: white;
   padding-top: 2%;
+  padding-bottom: 2%;
 }
-.all-services {
+.all-services-one {
   display: flex;
+  justify-content: space-between;
+  align-items: stretch;
 }
-.service-one {
+.service-one,.service-two, .service-three{
   border: 1px solid #fff0f5;
-  background-color: #4e0653d6;
+  background-color: #fff0f5;
   border-radius: 4%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
   width: 40%;
-  height: 80%;
+  height: auto;
   padding: 1%;
   margin-left: 1%;
   margin-bottom: 1%;
 }
 .cake {
-  width: 80%;
-  height: 80%;
+  width: 90%;
+  height: 70%;
   border-radius: 2%;
-}
-.service-two {
-  border: 1px solid #fff0f5;
-  background-color: #fff0f5;
-  border-radius: 4%;
-  width: 40%;
-  height: 50%;
-  padding: 1%;
-  margin-left: 1%;
-  margin-bottom: 1%;
 }
 .doughnut {
   width: 90%;
-  height: 50%;
+  height: 90%;
   border-radius: 2%;
   align-items: center;
 }
-.service-three {
-  border: 1px solid #fff0f5;
-  background-color: #fff0f5;
-  border-radius: 4%;
-  width: 40%;
-  height: 50%;
-  padding: 1%;
-  margin-left: 1%;
-  margin-bottom: 1%;
-}
 .croissant {
-  width: 60%;
-  height: 30%;
+  width: 90%;
+  height: 95%;
   border-radius: 2%;
   padding-left: auto;
 }
-.service-four {
+.all-services-two {
+  display: flex;
+  justify-content: space-between;
+  align-items: stretch;
+}
+.service-four, .service-five, .service-six {
   border: 1px solid #fff0f5;
   background-color: #fff0f5;
   border-radius: 4%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
   width: 40%;
-  height: 50%;
+  height: auto;
   padding: 1%;
   margin-left: 1%;
   margin-bottom: 1%;
@@ -114,9 +110,11 @@ h3 {
 .cupcakes {
   width: 90%;
   height: 50%;
+  margin-top: 8%;
   border-radius: 2%;
+  padding-left: 2%;
 }
-.service-five {
+/*.service-five {
   border: 1px solid #fff0f5;
   background-color: #fff0f5;
   border-radius: 4%;
@@ -125,13 +123,13 @@ h3 {
   padding: 1%;
   margin-left: 1%;
   margin-bottom: 1%;
-}
+}*/
 .Bread {
   width: 90%;
   height: 50%;
   border-radius: 2%;
 }
-.service-six {
+/*.service-six {
   border: 1px solid #fff0f5;
   background-color: #fff0f5;
   border-radius: 4%;
@@ -140,11 +138,12 @@ h3 {
   padding: 1%;
   margin-left: 1%;
   margin-bottom: 1%;
-}
+}*/
 .souffle-pancakes {
   width: 90%;
   height: 50%;
   border-radius: 2%;
+  padding-top: 9%;
 }
 
 .service-one-text,
