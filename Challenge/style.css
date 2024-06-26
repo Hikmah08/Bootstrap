@@ -51,44 +51,110 @@ h3 {
   background-color: white;
   padding-top: 2%;
 }
-.all-services{
-    display: flex;
+.all-services {
+  display: flex;
 }
 .service-one {
   border: 1px solid #fff0f5;
-  background-color: #fff0f5;
+  background-color: #4e0653d6;
   border-radius: 4%;
   width: 40%;
-  height: 40%;
+  height: 80%;
   padding: 1%;
   margin-left: 1%;
   margin-bottom: 1%;
 }
+.cake {
+  width: 80%;
+  height: 80%;
+  border-radius: 2%;
+}
 .service-two {
-    border: 1px solid #fff0f5;
-    background-color: #fff0f5;
-    border-radius: 4%;
-    width: 40%;
-    height: 40%;
-    padding: 1%;
-    margin-left: 1%;
-  }
-  .service-three{
-    border: 1px solid #fff0f5;
-    background-color: #fff0f5;
-    border-radius: 4%;
-    width: 40%;
-    height: 40%;
-    padding: 1%;
-    margin-left: 1%;
-  }
-.service-one-image {
+  border: 1px solid #fff0f5;
+  background-color: #fff0f5;
+  border-radius: 4%;
+  width: 40%;
+  height: 50%;
+  padding: 1%;
+  margin-left: 1%;
+  margin-bottom: 1%;
+}
+.doughnut {
+  width: 90%;
+  height: 50%;
+  border-radius: 2%;
+  align-items: center;
+}
+.service-three {
+  border: 1px solid #fff0f5;
+  background-color: #fff0f5;
+  border-radius: 4%;
+  width: 40%;
+  height: 50%;
+  padding: 1%;
+  margin-left: 1%;
+  margin-bottom: 1%;
+}
+.croissant {
+  width: 60%;
+  height: 30%;
+  border-radius: 2%;
+  padding-left: auto;
+}
+.service-four {
+  border: 1px solid #fff0f5;
+  background-color: #fff0f5;
+  border-radius: 4%;
+  width: 40%;
+  height: 50%;
+  padding: 1%;
+  margin-left: 1%;
+  margin-bottom: 1%;
+}
+.cupcakes {
   width: 90%;
   height: 50%;
   border-radius: 2%;
 }
-.service-one-text {
+.service-five {
+  border: 1px solid #fff0f5;
+  background-color: #fff0f5;
+  border-radius: 4%;
+  width: 40%;
+  height: 50%;
+  padding: 1%;
+  margin-left: 1%;
+  margin-bottom: 1%;
+}
+.Bread {
+  width: 90%;
+  height: 50%;
+  border-radius: 2%;
+}
+.service-six {
+  border: 1px solid #fff0f5;
+  background-color: #fff0f5;
+  border-radius: 4%;
+  width: 40%;
+  height: 50%;
+  padding: 1%;
+  margin-left: 1%;
+  margin-bottom: 1%;
+}
+.souffle-pancakes {
+  width: 90%;
+  height: 50%;
+  border-radius: 2%;
+}
+
+.service-one-text,
+.service-two-text,
+.service-three-text,
+.service-four-text,
+.service-five-text,
+.service-six-text {
   text-align: center;
   line-height: 1.5;
-  font-size: 1rem;
+  font-size: 1.5rem;
+  font-family: Arial, Helvetica, sans-serif;
 }
