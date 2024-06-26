@@ -4,34 +4,83 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Learning HTML tags</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+      integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <h1>HOW TO BAKE A CAKE</h1>
-    <h3>Ingredients needed</h3>
-    <ul>
-      <li>Flour</li>
-      <li>Sugar</li>
-      <li>Vanilla extract</li>
-      <li>Butter</li>
-      <li>Baking powder</li>
-      <li>Eggs</li>
-    </ul>
-    <h3>Steps on how to bake a cake</h3>
-    <ol>
-      <li>Mix the dry ingredients i.e Flour and Baking soda</li>
-      <li>
-        Mix the butter and sugar in one direction until it forms a smooth paste
-      </li>
-      <li>Proceed to mix the egg with the butter-sugar mixture</li>
-      <li>Now mix the wet and dry ingredients then add the vanilla extract</li>
-      <li>You can now preheat your oven at about 150<sup>0</sup>c</li>
-      <li>
-        Dust your baking pan with butter and flour then pour in your mixture
-      </li>
-      <li>
-        Put the mixture in the oven and let bake for a while before doing the
-        toothpick test
-      </li>
-    </ol>
+    <section class="home-section">
+      <header class="header">
+        <p class="brand">Baker's Delight</p>
+        <nav class="navbar">
+          <a class="nav-link" href="#">Home</a>
+          <a class="nav-link" href="#">Services</a>
+          <a class="nav-link" href="#">Pricing</a>
+          <a class="nav-link" href="#">Testimonial</a>
+          <a class="nav-link" href="#">Contact</a>
+        </nav>
+      </header>
+      <div class="home-page">
+        <h3 class="home-text">
+          Baker's Delight is a fast growing confectionary business that deals in
+          cakes, cookies, bread and pies.
+        </h3>
+        <img
+          src="./images/Cakes and tarts.jpg"
+          alt="cakes"
+          class="home-image"
+        />
+      </div>
+    </section>
+
+    <!--Services Section-->
+    <section id="services">
+      <div class="service-one">
+        <img
+          src="./images/Services 1.jpg"
+          alt="cake"
+          class="service-one-image"
+        />
+        <p class="service-one-text">
+          Baker's Delight deals with all type of cakes ranging from wedding,
+          birthday cakes and others
+        </p>
+      </div>
+      <div class="service-one">
+        <img
+          src="./images/Services 1.jpg"
+          alt="cake"
+          class="service-one-image"
+        />
+        <p class="service-one-text">
+          Baker's Delight deals with all type of cakes ranging from wedding,
+          birthday cakes and others
+        </p>
+      </div>
+      <div class="service-one">
+        <img
+          src="./images/Services 1.jpg"
+          alt="cake"
+          class="service-one-image"
+        />
+        <p class="service-one-text">
+          Baker's Delight deals with all type of cakes ranging from wedding,
+          birthday cakes and others
+        </p>
+      </div>
+    </section>
+
+    <footer>
+      <i class="fab fa-facebook"></i>
+      <i class="fab fa-twitter"></i>
+      <i class="fab fa-instagram"></i>
+      <i class="fas fa-envelope"></i>
+      <p>© Copyright Baker's Delight</p>
+    </footer>
   </body>
 </html>
