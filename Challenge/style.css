@@ -153,7 +153,7 @@ h3 {
   .home-page {
     width: fit-content;
     display: flex;
-    flex-direction: column;
+    flex-direction: column-reverse;
     flex-wrap: wrap;
   }
   .home-text {
