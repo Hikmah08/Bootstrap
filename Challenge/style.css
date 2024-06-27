@@ -14,10 +14,6 @@ body {
   font-family: sans-serif;
 }
 /*HOME SECTION*/
-.home-section {
-  background-color: #fff0f5;
-}
-
 :root {
   --header-height: 77px;
 }
@@ -30,13 +26,12 @@ header {
   justify-content: space-between;
   align-items: center;
   backdrop-filter: blur(10px);
-  padding: 20px 50px 20px 50px;
+  padding: 20px 50px;
   height: calc(var(--header-height));
-  box-shadow: #fff0f5 0px 0px 10px;
 }
 
 main {
-  padding: 0 50px 0 50px;
+  padding: 0 50px;
 }
 
 nav {
@@ -51,15 +46,12 @@ a {
   color: #000000;
 }
 
-img {
-  object-fit: contain;
-}
-
 .brand {
   font-size: 2rem;
   font-family: Arial, Helvetica, sans-serif;
   color: #000000;
   font-weight: 700;
+  white-space: nowrap;
 }
 
 .navbar {
@@ -70,9 +62,8 @@ img {
 .home-page {
   height: 100vh;
   display: flex;
-  justify-content: space-between;
+  justify-content: space-evenly;
   align-items: center;
-  gap: 40px;
 }
 
 h3 {
@@ -85,8 +76,8 @@ h3 {
 .home-image {
   border: 1px solid;
   border-radius: 10%;
-  width: 45%;
-  height: 45%;
+  object-fit: fill;
+  width: 50%;
 }
 
 /*SERVICES*/
@@ -130,4 +121,84 @@ footer {
   width: 70vw;
   margin: 0 auto;
   height: var(--header-height);
+}
+
+/* Phone */
+@media (max-width: 765px) {
+  main {
+    padding: var(--header-height) 20px 0 20px;
+  }
+  nav {
+    display: none;
+  }
+  .home-page {
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+    margin-bottom: 50px;
+    gap: 0;
+  }
+  .home-image {
+    width: 100%;
+    height: auto;
+  }
+  h3 {
+    font-size: 2rem;
+    font-weight: 550;
+  }
+  #services {
+    grid-template-columns: repeat(1, 1fr);
+    gap: 20px;
+  }
+  .service {
+    max-width: 300px;
+    gap: 10px;
+  }
+
+  .service img {
+    width: 280px;
+    height: 200px;
+  }
+  footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: ;
+    align-items: center;
+    width: 70vw;
+    margin: 50px auto 0 auto;
+    height: var(--header-height);
+  }
+}
+
+/* Tablet */
+@media (max-width: 1023px) and (min-width: 768px) {
+  header {
+    padding: 20px 20px;
+  }
+  nav {
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+    font-size: 1.5rem;
+  }
+  .home-page {
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+    margin-bottom: 50px;
+    gap: 0;
+  }
+  .home-image {
+    width: 100%;
+    height: auto;
+  }
+  h3 {
+    font-size: 2rem;
+    font-weight: 550;
+  }
+  #services {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+  }
 }
