@@ -24,8 +24,8 @@
         <nav class="navbar">
           <a class="nav-link" href="#">Home</a>
           <a class="nav-link" href="#services">Services</a>
-          <a class="nav-link" href="#">Pricing</a>
-          <a class="nav-link" href="#">Testimonial</a>
+          <a class="nav-link" href="#testimonial">Testimonial</a>
+          <a class="nav-link" href="#order">Order</a>
           <a class="nav-link" href="#">Contact</a>
         </nav>
       </header>
@@ -98,20 +98,114 @@
         </div>
       </div>
     </section>
+    <!--TESTIMONIAL SECTION-->
     <section id="testimonial">
       <div class="testimonials">
         <div class="testimonial-one">
-          <img src="./images/testimonial-image-1.avif" class="testimonial-image"/>
-          <p class="testimonial-text">When I'm down, when I'm celebrating or when I'm hosting friend, I always order from Baker's Delight cause it lifts my mood in a pleasant way </p>
+          <img
+            src="./images/testimonial-image-1.avif"
+            class="testimonial-image"
+          />
+          <p class="testimonial-text">
+            When I'm down, when I'm celebrating or when I'm hosting friend, I
+            always order from Baker's Delight cause it lifts my mood in a
+            pleasant way
+          </p>
         </div>
         <div class="testimonial-two">
-          <img src="./images/testimonial-image-2.jpg" class="testimonial-image"/>
-          <p class="testimonial-text">As someone who likes to read a lot, I tend to snack a lot while doing so and their cupcakes and pies understands the assignment </p>
+          <img
+            src="./images/testimonial-image-2.jpg"
+            class="testimonial-image"
+          />
+          <p class="testimonial-text">
+            As someone who likes to read a lot, I tend to snack a lot while
+            doing so and their cupcakes and pies understands the assignment
+          </p>
         </div>
         <div class="testimonial-three">
-          <img src="./images/testimonial-image-3.jpg" class="testimonial-image-3"/>
-          <p class="testimonial-text">The japanese souffle pancakes makes me keep going every morning, Don't sleep on the sandwiched croissants!. </p>
+          <img
+            src="./images/testimonial-image-3.jpg"
+            class="testimonial-image-3"
+          />
+          <p class="testimonial-text">
+            The japanese souffle pancakes makes me keep going every morning,
+            Don't sleep on the sandwiched croissants!.
+          </p>
         </div>
+      </div>
+    </section>
+    <!--ORDER SECTION-->
+    <section id="order">
+      <div class="container">
+        <p class="order-heading">Fill in your Order</p>
+        <form>
+          <label class="name-label"
+            >Name:
+            <input type="text" class="name" placeholder="Your Full Name" />
+          </label>
+          <label class="name-label"
+            >Email:
+            <input type="email" class="e-mail" placeholder="E-mail" />
+          </label>
+          <label class="name-label"
+            >Phone-number:
+            <input
+              type="number"
+              class="phone-number"
+              placeholder="Phone-number"
+            />
+          </label>
+          <label class="name-label"
+            >Pick-up Date:
+            <input type="date" class="date" placeholder="" />
+          </label>
+          <p class="checkbox-text">What are you ordering today:</p>
+          <label class="order"
+            >
+            <input type="checkbox" value="Wedding-cake" />Wedding-cake
+          </label>
+          <label class="order"
+            >
+            <input type="checkbox" value="Birthday-cake" />Birthday-cake
+          </label>
+          <label class="order"
+            >
+            <input type="checkbox" value="Meat-pie" />Meat-pie
+          </label>
+          <label class="order"
+            >
+            <input type="checkbox" value="Cupcakes" />Cupcakes
+          </label>
+          <label class="order"
+            >
+            <input type="checkbox" value="Croissants" />Croissants
+          </label>
+          <label class="order"
+            >
+            <input type="checkbox" value="Bread" />Breads
+        </label>
+        <div class="receive">
+        <p class="delivery-text">How are you receiving order:</p>
+        <select class="delivery">
+          <option >Delivery</option>
+          <option >Pickup</option>
+        </select>
+      </div>
+      <p class="address-text">Input your full address:</p>
+          <textarea  placeholder="Enter detailed house address with house-number, street-name and city" rows="5" cols="10" class="address">  
+          </textarea>
+          <p class="specify-text">Fill full details of how you want your order.</p>
+          <textarea
+            class="order-specify"
+            placeholder="Fill in order specifications"
+            rows="7"
+            cols="30"
+          >
+          </textarea>
+          <label>
+            <input type="submit" placeholder="Submit" />
+          </label>
+        </form>
       </div>
     </section>
     <footer>
