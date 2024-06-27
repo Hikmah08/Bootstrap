@@ -48,7 +48,7 @@ h3 {
 }
 /*SERVICES*/
 #services {
-  background-color: white;
+  background-color: #fff0f5;
   padding-top: 2%;
   padding-bottom: 2%;
 }
@@ -57,9 +57,11 @@ h3 {
   justify-content: space-between;
   align-items: stretch;
 }
-.service-one,.service-two, .service-three{
+.service-one,
+.service-two,
+.service-three {
   border: 1px solid #fff0f5;
-  background-color: #fff0f5;
+  background-color: #ffffff;
   border-radius: 4%;
   display: flex;
   flex-direction: column;
@@ -93,9 +95,11 @@ h3 {
   justify-content: space-between;
   align-items: stretch;
 }
-.service-four, .service-five, .service-six {
+.service-four,
+.service-five,
+.service-six {
   border: 1px solid #fff0f5;
-  background-color: #fff0f5;
+  background-color: #ffffff;
   border-radius: 4%;
   display: flex;
   flex-direction: column;
@@ -114,31 +118,11 @@ h3 {
   border-radius: 2%;
   padding-left: 2%;
 }
-/*.service-five {
-  border: 1px solid #fff0f5;
-  background-color: #fff0f5;
-  border-radius: 4%;
-  width: 40%;
-  height: 50%;
-  padding: 1%;
-  margin-left: 1%;
-  margin-bottom: 1%;
-}*/
 .Bread {
   width: 90%;
   height: 50%;
   border-radius: 2%;
 }
-/*.service-six {
-  border: 1px solid #fff0f5;
-  background-color: #fff0f5;
-  border-radius: 4%;
-  width: 40%;
-  height: 50%;
-  padding: 1%;
-  margin-left: 1%;
-  margin-bottom: 1%;
-}*/
 .souffle-pancakes {
   width: 90%;
   height: 50%;
@@ -156,4 +140,42 @@ h3 {
   line-height: 1.5;
   font-size: 1.5rem;
   font-family: Arial, Helvetica, sans-serif;
+}
+@media (max-width: 768px) {
+  header {
+    width: 100%;
+  }
+  .navbar {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .home-page {
+    width: fit-content;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+  }
+  .home-text {
+    font-size: 2rem;
+  }
+  .home-image {
+    width: 100%;
+    height: 80%;
+    margin-bottom: 1%;
+    align-items: center;
+  }
+  .all-services-one, .all-services-two {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
+  .service-one,
+  .service-two,
+  .service-three,
+  .service-four,
+  .service-five,
+  .service-six {
+    width: 100%;
+  }
 }
