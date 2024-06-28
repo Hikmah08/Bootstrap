@@ -170,12 +170,12 @@ h3 {
 /*ORDER*/
 .container {
   margin-top: 2%;
-  border: 1px solid tan;
+  border: 1px solid #d2b48c;
   width: 40%;
   height: 50%;
   margin-left: auto;
   margin-right: auto;
-  background-color: rgba(255, 228, 196, 0.903);
+  background-color: #ffe4c4e6;
 }
 .order-heading {
   font-size: 2rem;
@@ -240,6 +240,13 @@ footer {
   margin-top: 3%;
   padding: 1%;
 }
+.back-home{
+  margin-left: 90%;
+}
+a:hover{
+  color:#ee880be6;
+}
+
 @media (max-width: 768px) {
   header {
     width: 100%;
